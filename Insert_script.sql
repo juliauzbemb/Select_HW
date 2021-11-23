@@ -84,15 +84,14 @@ insert into Collection(collection_name, collection_year)
 	('Popular Tracks', 2021);
 
 
-insert into CollectionTrackAlbum (collection_id, album_id, track_id)
+insert into CollectionTrack (collection_id, track_id)
 	values
-	(1, 1, 1),
-	(2, 2, 2), 
-	(3, 3, 3),
-	(4, 4, 4),
-	(5, 5, 5),
-	(6, 6, 6),
-	(7, 7, 7),
-	(8, 8, 8);
-
+	(1, 1),
+	(2, 2), 
+	(3, 3),
+	(4, 4),
+	(5, 5),
+	(6, 6),
+	(7, 7),
+	(8, 8);
 	
